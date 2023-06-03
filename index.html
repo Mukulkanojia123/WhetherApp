@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether App with javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button id="searchBtn" type="button">Search</button>
+            </div>
+        </div>
+        <div class="whether-body">
+            <img src="./sunny.jpg" alt="Whether image" class="weather-img">
+                <div class="whether-box">
+                    <p class="temprature">0<sup>°C</sup></p>
+                    <p class="description"></p>
+                </div>
+                <div class="location-not-found">
+                    <h1>Sorry, Location not found!!!</h1>
+                    <img src="/assets/404.png" alt="">
+                </div>
+                <div class="weather-details">
+                    <div class="humidity">
+                        
+                        <div class="text">
+                            <span id="humidity">0</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+    
+                    <div class="wind">
+                        
+                        <div class="text">
+                            <span id="wind-speed">0</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
